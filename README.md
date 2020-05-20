@@ -18,7 +18,7 @@ $ pip install PrimeAPIClient
 ```
 
 ## Usage
-the argument "method" must be specify every time.
+The argument "method" must be specify every time.
 
 #### Default arguments and attributes
 ```python
