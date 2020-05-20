@@ -35,7 +35,7 @@ class TestPrimeAPIWrapper(unittest.TestCase):
         client.disconnect()
         self.assertEqual(client.token, None)
 
-    def test_methods_get_put_post_delete(self):
+    def test_methods_get(self):
         client = PrimeAPIClient.Client(api_version='v3')
 
         client.connect(url, username, password)
